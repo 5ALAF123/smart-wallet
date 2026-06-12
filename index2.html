@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wallet-container">
+      <h1>محفظتي الرقسية</h1>
+      <h3 class="balance-section">الرصيد الحالي</h3>
+      <div id="balance">0</div>
+    </div>
+
+    <div class="control-buttons">
+      <input type="number" id="amount-input" placeholder="ادخل المبلغ هنا" />
+
+      <div class="buttons-row">
+        <button id="btn-income" class="btn-in">دخل - ايداع</button>
+
+        <button id="btn-expense" class="btn-out">مصروف - صرف</button>
+      </div>
+    </div>
+
+    <div class="history-section">
+      <h3>سجل العمزيات - History</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </body>
+</html>
