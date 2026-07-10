@@ -44,9 +44,7 @@ input {
 }
 
 .buttons-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
+  margin-left: 25%;
 }
 
 button {
